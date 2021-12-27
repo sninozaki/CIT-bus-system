@@ -1,0 +1,59 @@
+body {
+  color: #000;
+  font-family: "游ゴシック";
+  font-size: 25px;
+  border: 30px #fff solid;
+  background-color: #a4e2f5;
+  margin: 0px;
+  height: 100%;
+}
+
+.departure {
+  font-size: 40px;
+  text-align: center;
+  color: #62b7fc;
+  background-color: #6aff5d;
+}
+
+.notdeparture {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(143, 143, 143);
+  background-color: #dddddd;
+}
+
+.syuppatu {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  font-size: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: scale(2, 2);
+  width: 100px;
+}
+
+.date {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: scale(2, 2);
+  width: 100px;
+  text-align: center;
+}
+
+.time {
+  position: absolute;
+  top: 65%;
+  left: 48.5%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: scale(2, 2);
+  width: 100px;
+}
+.submit {
+  text-align: center;
+  top: 80%;
+}
